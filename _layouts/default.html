@@ -1,12 +1,59 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <title>Nick Pachulski</title>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+      name="viewport"
+    />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url
+    }}"/>
+    <script src="assets/js/script.js"></script>
   </head>
   <body>
-    {{ content }}
+    <div id="nav-anchor">
+      <div id="nav-container">
+        <a id="home-link" href="#">Nick Pachulski</a>
+
+        <!-- web -->
+        <div id="nav-links">
+          <a href="#">About</a>
+          <a href="#">Github</a>
+          <a href="#">Email</a>
+          <button id="work-with-me-button">Work With Me</button>
+        </div>
+
+        <!-- mobile -->
+        <button id="hamburger-button" onclick="showMobileNavigationMenu()">
+          <img
+            src="assets/images/hamburger-icon.svg"
+            alt="Menu"
+            id="hamburger-button-image"
+          />
+        </button>
+        <div id="mobile-nav-container">
+          <div id="mobile-nav">
+            <button
+              id="close-mobile-nav-button"
+              onclick="hideMobileNavigationMenu()"
+            >
+              <img
+                src="assets/images/x-icon.svg"
+                alt="Close Menu"
+                id="x-image"
+              />
+            </button>
+            <div id="mobile-nav-links-container">
+              <a href="#">About</a>
+              <a href="#">Github</a>
+              <a href="#">Email</a>
+              <button id="mobile-work-with-me-button">Work With Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="page-content">{{ content }}</div>
   </body>
 </html>
