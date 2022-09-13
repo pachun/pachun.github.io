@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Conditionally Initializing Immutable Values in Swift"
+tags: ["iOS", "Swift"]
 ---
 
 Immutability is great if you can swing it, but sometimes you run into tricky

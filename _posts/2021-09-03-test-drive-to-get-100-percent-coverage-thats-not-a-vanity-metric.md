@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test Drive to Get 100% Coverage That's Not a Vanity Metric"
-tags: ["Test Driven Development", "Process"]
+tags: ["Testing", "Test Driven Development", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---
 

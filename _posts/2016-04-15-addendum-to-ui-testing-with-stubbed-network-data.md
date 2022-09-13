@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Addendum to UI Testing with Stubbed Network Data"
+tags: ["Test Driven Development", "Testing", "iOS", "Swift"]
 excerpt_separator: <!--end-of-excerpt-->
 redirect_from: /2016/addendum-to-ui-testing-with-stubbed-network-data/
 ---

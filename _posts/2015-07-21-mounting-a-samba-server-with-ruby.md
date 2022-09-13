@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mounting a Samba Server with Ruby
+tags: ["Ruby"]
 ---
 
 I tried four or five gems that claimed they'd _samba_ for me in a ruby-esque way. None of them worked. Installing or trying to use a couple of them resulted in pretty startling errors, like missing C header files. I tried resolving those issues to no avail before ultimately resorting to scripting the shell.

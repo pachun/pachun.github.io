@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fly By Wire
+tags: ["Podcast Episode", "Career Development"]
 ---
 
 This article's actually a podcast. Surprise! 🎉

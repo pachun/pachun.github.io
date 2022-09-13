@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Order Matters
+tags: ["Agile", "Diligent Maintenance"]
 ---
 
 Many of us split development work into segments called user stories. User stories deliver value. There should be no point at which a story is completed and no new value is delivered.

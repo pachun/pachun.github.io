@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Blockchains Work
+tags: ["Blockchain"]
 excerpt_separator: <!--end-of-excerpt-->
 ---
 

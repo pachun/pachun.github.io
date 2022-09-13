@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Take Your Moonshot
+tags: ["Inspiration"]
 ---
 
 Since 2014, I've spent untold hours on each of 13 iOS app side projects. Three of them made it into the App Store. Not because Apple rejected the others, but because my enthusiasm for them fell away. I even stopped work on the project I consider to have been most successful, which accrued just over 2.5K users.
@@ -13,10 +14,10 @@ I insisted on avoiding state management dependencies in my first several React N
 
 I've spent time learning how to create better splash screens and app icons in Sketch which is clearly represented in the progression of app icons that my App Store Connect dashboard shows me. I'm _really_ awful at these bits, but I'm definitely getting better.
 
-<div style="display: flex; justify-content: space-between; margin-top: 50px; margin-bottom: 50px;">
-  <img src="/assets/truck-tracker-icon.png" style="max-width: 230px; height: auto;"/>
-  <img src="/assets/listen-along-icon.png" style="max-width: 230px; height: auto;"/>
-  <img src="/assets/podible-icon.png" style="max-width: 230px; height: auto;"/>
+<div style="display: flex; flex-direction: column;">
+  <img src="/assets/images/posts/take-your-moonshot/truck-tracker-icon.png" style="width: 400px; height: auto;"/>
+  <img src="/assets/images/posts/take-your-moonshot/listen-along-icon.png" style="width: 400px; height: auto;"/>
+  <img src="/assets/images/posts/take-your-moonshot/podible-icon.png" style="width: 400px; height: auto;"/>
 </div>
 
 Intimacy with these tools begs hours of effort. Enthusiasm for each project's potential (however delusional it may be) is my motivation for spending those hours. Though none of these projects have earned me wealth or fame, I believe the time's been well spent.

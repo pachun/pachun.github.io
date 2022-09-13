@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spotify.framework with Swift
+tags: ["Spotify", "Swift", "iOS"]
 ---
 
 From Spotify's iOS SDK documentation:

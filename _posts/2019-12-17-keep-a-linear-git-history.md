@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Keep a Linear Git History
+tags: ["Git", "Diligent Maintenance"]
 ---
 
 The goal of this guide is to help teach you how to keep your repository's history clear.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Validate Assumptions Early and Often With TDD
+tags: ["Test Driven Development", "Testing", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---
 

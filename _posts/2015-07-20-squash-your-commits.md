@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Squash Your Commits"
+tags: ["Git", "Diligent Maintenance"]
 ---
 
 When I was introduced to the concept of squashing commits, I had a difficult

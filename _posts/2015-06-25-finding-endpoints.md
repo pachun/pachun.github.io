@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Finding Endpoints"
+tags: ["Javascript", "Rails"]
 ---
 
 Sometimes I want to know what server side endpoints I'm hitting as I click around in the browser. The app I maintain at work is large, containing a server side rails app and client side angular app all shoved into a single repository which (in large part) lacks tests and RESTful routes.

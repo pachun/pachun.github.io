@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automated Testing
+tags: ["Testing", "Diligent Maintenance"]
 ---
 
 The reason for having automated tests is to know whether or not code works. Working code fulfills product requirements.
