@@ -79,8 +79,8 @@ p {
     --author-link-color: var(--apple-light-pink);
     --author-link-hover-color: var(--apple-light-cyan);
 
-    --blog-post-tag-link-color: var(--apple-light-cyan);
-    --blog-post-tag-link-hover-color: var(--apple-light-pink);
+    --blog-post-tag-link-color: var(--apple-light-pink);
+    --blog-post-tag-link-hover-color: var(--apple-light-cyan);
 
     --link-color: #454547;
     --link-hover-color: var(--apple-light-pink);
@@ -304,7 +304,6 @@ a:hover {
 }
 
 .blog-post-date {
-  opacity: 0.5;
   font-size: 1.2rem;
   color: var(--header-color);
 }
