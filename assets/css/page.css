@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--blog-post-spacing);
+}
+
+#content {
+  width: var(--default-content-width);
+  max-width: var(--mobile-content-width);
+  display: flex;
+  flex-direction: column;
+}

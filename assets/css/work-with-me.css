@@ -1,0 +1,57 @@
+#work-with-me-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#work-with-me-form label {
+  flex: 1;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#work-with-me-form input {
+  padding: 8px;
+  font-size: 1.14rem;
+  margin-bottom: 20px;
+  border: 0.5px solid #000;
+}
+
+#work-with-me-form textarea {
+  padding: 8px;
+  font-size: 1.14rem;
+  height: 10rem;
+  border: 0.5px solid #000;
+}
+
+#work-with-me-form #message-subtext {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --learn-more-link-color: var(--apple-light-pink);
+    --submit-button-color: var(--apple-light-pink);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --learn-more-link-color: var(--apple-dark-cyan);
+    --submit-button-color: var(--apple-dark-pink);
+  }
+}
+
+#work-with-me-form button {
+  font-weight: bold;
+  font-size: 1.14rem;
+  color: white;
+  border: none;
+  background-color: var(--submit-button-color);
+  height: 3rem;
+}
+
+#work-with-me-form #message-subtext a {
+  color: var(--learn-more-link-color);
+}
