@@ -94,6 +94,7 @@
     --cybex: url(/assets/images/clients/light-mode/cybex.png);
     --qeepsake: url(/assets/images/clients/light-mode/qeepsake.png);
     --conformis: url(/assets/images/clients/light-mode/conformis.png);
+    --lexshares: url(/assets/images/clients/light-mode/lexshares.png);
   }
 }
 
@@ -106,7 +107,12 @@
     --cybex: url(/assets/images/clients/dark-mode/cybex.png);
     --qeepsake: url(/assets/images/clients/dark-mode/qeepsake.png);
     --conformis: url(/assets/images/clients/dark-mode/conformis.png);
+    --lexshares: url(/assets/images/clients/dark-mode/lexshares.png);
   }
+}
+
+#lexshares {
+  content: var(--lexshares);
 }
 
 #conformis {
