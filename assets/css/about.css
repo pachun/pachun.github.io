@@ -91,6 +91,9 @@
     --travelers: url(/assets/images/clients/light-mode/travelers.png);
     --manulife: url(/assets/images/clients/light-mode/manulife.png);
     --levelup: url(/assets/images/clients/light-mode/levelup.png);
+    --cybex: url(/assets/images/clients/light-mode/cybex.png);
+    --qeepsake: url(/assets/images/clients/light-mode/qeepsake.png);
+    --conformis: url(/assets/images/clients/light-mode/conformis.png);
   }
 }
 
@@ -100,7 +103,22 @@
     --travelers: url(/assets/images/clients/dark-mode/travelers.png);
     --manulife: url(/assets/images/clients/dark-mode/manulife.png);
     --levelup: url(/assets/images/clients/dark-mode/levelup.png);
+    --cybex: url(/assets/images/clients/dark-mode/cybex.png);
+    --qeepsake: url(/assets/images/clients/dark-mode/qeepsake.png);
+    --conformis: url(/assets/images/clients/dark-mode/conformis.png);
   }
+}
+
+#conformis {
+  content: var(--conformis);
+}
+
+#qeepsake {
+  content: var(--qeepsake);
+}
+
+#cybex {
+  content: var(--cybex);
 }
 
 #levelup {
