@@ -54,6 +54,7 @@
 }
 
 #about-wrapper .subtitle {
+  margin-bottom: 40px;
   text-align: center;
   font-size: 2em;
   color: var(--header-color);
@@ -73,7 +74,7 @@
   flex: 1;
   min-width: 187px;
   margin-top: 50px;
-  padding: 20px;
+  margin: 20px;
 }
 
 .client-image {
@@ -99,6 +100,9 @@
     --ticketzen: url(/assets/images/clients/light-mode/ticketzen.png);
     --trip-zero: url(/assets/images/clients/light-mode/trip-zero.png);
     --torq: url(/assets/images/clients/light-mode/torq.png);
+    --me-you-health: url(/assets/images/clients/light-mode/me-you-health.png);
+    --om1: url(/assets/images/clients/light-mode/om1.png);
+    --vermont-mutual: url(/assets/images/clients/light-mode/vermont-mutual.png);
   }
 }
 
@@ -116,7 +120,27 @@
     --ticketzen: url(/assets/images/clients/dark-mode/ticketzen.png);
     --trip-zero: url(/assets/images/clients/dark-mode/trip-zero.png);
     --torq: url(/assets/images/clients/dark-mode/torq.png);
+    --me-you-health: url(/assets/images/clients/dark-mode/me-you-health.png);
+    --om1: url(/assets/images/clients/dark-mode/om1.png);
+    --vermont-mutual: url(/assets/images/clients/dark-mode/vermont-mutual.png);
   }
+}
+
+#vermont-mutual {
+  content: var(--vermont-mutual);
+  width: 40px;
+  height: 48px;
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+}
+
+#om1 {
+  content: var(--om1);
+}
+
+#me-you-health {
+  content: var(--me-you-health);
 }
 
 #torq {
