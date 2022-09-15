@@ -1,3 +1,7 @@
+#title {
+  margin-bottom: 3rem;
+}
+
 #work-with-me-form {
   display: flex;
   flex-direction: column;
@@ -50,6 +54,7 @@
   border: none;
   background-color: var(--submit-button-color);
   height: 3rem;
+  cursor: pointer;
 }
 
 #work-with-me-form #message-subtext a {

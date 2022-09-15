@@ -49,7 +49,7 @@
   text-align: center;
 }
 
-#about-wrapper .benefit p a {
+#about-wrapper p a {
   color: var(--link-hover-color);
 }
 
