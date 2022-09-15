@@ -84,3 +84,31 @@
   min-width: 160px;
   height: auto;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --autodesk: url(/assets/images/clients/light-mode/autodesk.png);
+    --travelers: url(/assets/images/clients/light-mode/travelers.png);
+    --manulife: url(/assets/images/clients/light-mode/manulife.png);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --autodesk: url(/assets/images/clients/dark-mode/autodesk.png);
+    --travelers: url(/assets/images/clients/dark-mode/travelers.png);
+    --manulife: url(/assets/images/clients/dark-mode/manulife.png);
+  }
+}
+
+#manulife {
+  content: var(--manulife);
+}
+
+#travelers {
+  content: var(--travelers);
+}
+
+#autodesk {
+  content: var(--autodesk);
+}
