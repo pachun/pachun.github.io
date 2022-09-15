@@ -96,6 +96,9 @@
     --conformis: url(/assets/images/clients/light-mode/conformis.png);
     --lexshares: url(/assets/images/clients/light-mode/lexshares.png);
     --laborocity: url(/assets/images/clients/light-mode/laborocity.png);
+    --ticketzen: url(/assets/images/clients/light-mode/ticketzen.png);
+    --trip-zero: url(/assets/images/clients/light-mode/trip-zero.png);
+    --torq: url(/assets/images/clients/light-mode/torq.png);
   }
 }
 
@@ -110,7 +113,22 @@
     --conformis: url(/assets/images/clients/dark-mode/conformis.png);
     --lexshares: url(/assets/images/clients/dark-mode/lexshares.png);
     --laborocity: url(/assets/images/clients/dark-mode/laborocity.png);
+    --ticketzen: url(/assets/images/clients/dark-mode/ticketzen.png);
+    --trip-zero: url(/assets/images/clients/dark-mode/trip-zero.png);
+    --torq: url(/assets/images/clients/dark-mode/torq.png);
   }
+}
+
+#torq {
+  content: var(--torq);
+}
+
+#trip-zero {
+  content: var(--trip-zero);
+}
+
+#ticketzen {
+  content: var(--ticketzen);
 }
 
 #laborocity {
