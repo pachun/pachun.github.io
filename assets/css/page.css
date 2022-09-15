@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: var(--blog-post-spacing);
+  padding-bottom: var(--blog-post-spacing);
 }
 
 #content {
