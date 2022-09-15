@@ -90,6 +90,7 @@
     --autodesk: url(/assets/images/clients/light-mode/autodesk.png);
     --travelers: url(/assets/images/clients/light-mode/travelers.png);
     --manulife: url(/assets/images/clients/light-mode/manulife.png);
+    --levelup: url(/assets/images/clients/light-mode/levelup.png);
   }
 }
 
@@ -98,7 +99,12 @@
     --autodesk: url(/assets/images/clients/dark-mode/autodesk.png);
     --travelers: url(/assets/images/clients/dark-mode/travelers.png);
     --manulife: url(/assets/images/clients/dark-mode/manulife.png);
+    --levelup: url(/assets/images/clients/dark-mode/levelup.png);
   }
+}
+
+#levelup {
+  content: var(--levelup);
 }
 
 #manulife {
