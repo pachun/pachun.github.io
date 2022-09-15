@@ -95,6 +95,7 @@
     --qeepsake: url(/assets/images/clients/light-mode/qeepsake.png);
     --conformis: url(/assets/images/clients/light-mode/conformis.png);
     --lexshares: url(/assets/images/clients/light-mode/lexshares.png);
+    --laborocity: url(/assets/images/clients/light-mode/laborocity.png);
   }
 }
 
@@ -108,7 +109,12 @@
     --qeepsake: url(/assets/images/clients/dark-mode/qeepsake.png);
     --conformis: url(/assets/images/clients/dark-mode/conformis.png);
     --lexshares: url(/assets/images/clients/dark-mode/lexshares.png);
+    --laborocity: url(/assets/images/clients/dark-mode/laborocity.png);
   }
+}
+
+#laborocity {
+  content: var(--laborocity);
 }
 
 #lexshares {
