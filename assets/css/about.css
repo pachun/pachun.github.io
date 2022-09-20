@@ -103,6 +103,7 @@
     --me-you-health: url(/assets/images/clients/light-mode/me-you-health.png);
     --om1: url(/assets/images/clients/light-mode/om1.png);
     --vermont-mutual: url(/assets/images/clients/light-mode/vermont-mutual.png);
+    --backstop: url(/assets/images/clients/light-mode/backstop.png);
   }
 }
 
@@ -123,7 +124,12 @@
     --me-you-health: url(/assets/images/clients/dark-mode/me-you-health.png);
     --om1: url(/assets/images/clients/dark-mode/om1.png);
     --vermont-mutual: url(/assets/images/clients/dark-mode/vermont-mutual.png);
+    --backstop: url(/assets/images/clients/light-mode/backstop.png);
   }
+}
+
+#backstop {
+  content: var(--backstop);
 }
 
 #vermont-mutual {
