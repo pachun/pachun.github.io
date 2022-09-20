@@ -2,5 +2,5 @@ url: "https://pachun.github.io" # the base hostname & protocol for your site, e.
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Nick Pachulski" # the name of your site, e.g. ACME Corp.
 permalink: /:title
-tag_page_layout: tag_page
-tag_page_dir: tag
+tag_page_layout: tag_index_page
+tag_page_dir: tag # url dir -> {baseurl}/tag/{tagname}

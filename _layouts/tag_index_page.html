@@ -4,7 +4,7 @@ layout: default
 
 <div id="introduction-container">
   <div id="introduction">
-    <h1 id="blog-title">These Aren't the Droids You're Looking For</h1>
+    <h1 id="blog-title">{{ page.tag }} Posts</h1>
     <p id="blog-description">
       Posts about software development written by
       <a id="author-link" href="/about">Nick Pachulski</a>
@@ -13,6 +13,6 @@ layout: default
 </div>
 <div id="blog-posts-container">
   <div id="blog-posts">
-    {% for post in site.posts %} {% include post.html post=post %} {% endfor %}
+    {% for post in page.posts %} {% include post.html post=post %} {% endfor %}
   </div>
 </div>
