@@ -1,5 +1,6 @@
 ---
 layout: default
+tag: Diligent Maintenance
 ---
 
 <div id="introduction-container">
@@ -13,6 +14,11 @@ layout: default
 </div>
 <div id="blog-posts-container">
   <div id="blog-posts">
-    {% for post in page.posts %} {% include post.html post=post %} {% endfor %}
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        {% include post.html post=post %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
+
