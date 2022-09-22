@@ -4,7 +4,6 @@ require "fileutils"
 def tag_index_page_source(tag)
   source = FrontMatterParser::Parser.parse_file("_includes/tag_index_page.md")
   front_matter = source.front_matter
-  front_matter["tag"] = tag
   formatted_front_matter = front_matter.map do |key, value|
     "#{key}: #{value}"
   end.join("\n")
@@ -12,6 +11,14 @@ def tag_index_page_source(tag)
     ---
     #{formatted_front_matter}
     ---
+
+    {% assign tag = "#{tag}" %}
+    {% assign tagged_posts = "" | split: "" %}
+    {% for post in site.posts %}
+      {% if post.tags contains tag %}
+        {% assign tagged_posts = tagged_posts | push: post %}
+      {% endif %}
+    {% endfor %}
 
     #{source.content}
   tag_index_page
