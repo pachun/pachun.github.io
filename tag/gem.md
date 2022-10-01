@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tag = "Jekyll" %}
+{% assign tag = "Gem" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}

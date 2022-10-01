@@ -90,6 +90,10 @@
   color: var(--blog-post-link-hover-color);
 }
 
+#blog-post-content .language-plaintext {
+  font-size: 12pt;
+}
+
 /* the following styles were generated with */
 /* `rougify style <stylename>` */
 
