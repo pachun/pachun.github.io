@@ -115,7 +115,7 @@ class UpdateTags
   end
 end
 
-UpdateTags.update
+# UpdateTags.update
 
 # update_tags(tag_directory)
 
