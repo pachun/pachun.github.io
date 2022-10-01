@@ -1,4 +1,3 @@
-require "filewatcher"
 require "front_matter_parser"
 require "fileutils"
 
@@ -103,7 +102,3 @@ class UpdateTags
     TAG_INDEX_PAGE
   end
 end
-
-# Filewatcher.new(["_posts", "_includes/tag_index_page.md"]).watch do |changes|
-#   update_tags(tag_directory)
-# end
