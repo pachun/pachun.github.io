@@ -10,6 +10,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
+
 <div id="introduction-container">
   <div id="introduction">
     <h1 id="blog-title">{{ tag }} Posts</h1>

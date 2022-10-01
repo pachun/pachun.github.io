@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tag = "Testing" %}
+{% assign tag = "Github Pages" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}
