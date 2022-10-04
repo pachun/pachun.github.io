@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Give Exceptional Thought to Your Variable and Function Names
+author: Nick Pachulski
 tags: ["Diligent Maintenance"]
 ---
 

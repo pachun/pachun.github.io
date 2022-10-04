@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Test Drive to Get 100% Coverage That's Not a Vanity Metric"
+author: Nick Pachulski
 tags: ["Testing", "Test Driven Development", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Keep a Linear Git History
+author: Nick Pachulski
 tags: ["Git", "Diligent Maintenance"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Blockchains Work
+author: Nick Pachulski
 tags: ["Blockchain"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

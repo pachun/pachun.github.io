@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mounting a Samba Server with Ruby
+author: Nick Pachulski
 tags: ["Ruby"]
 ---
 

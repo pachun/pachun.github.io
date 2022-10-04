@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Jekyll Blog Post Tags and GitHub Pages"
+author: Nick Pachulski
 tags: ["Ruby", "Gem"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

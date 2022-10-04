@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Finding Endpoints"
+author: Nick Pachulski
 tags: ["Javascript", "Rails"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Order Matters
+author: Nick Pachulski
 tags: ["Agile", "Diligent Maintenance"]
 ---
 

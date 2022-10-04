@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Conditionally Initializing Immutable Values in Swift"
+author: Nick Pachulski
 tags: ["iOS", "Swift"]
 ---
 

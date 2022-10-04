@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Focus and Do as Little as Is Required
+author: Nick Pachulski
 tags: ["Agile", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hey, I'll Try it Out
+author: Nick Pachulski
 tags: ["Hey"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

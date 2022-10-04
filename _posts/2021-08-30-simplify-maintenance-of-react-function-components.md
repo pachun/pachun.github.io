@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simplify Maintenance of React Function Components
+author: Nick Pachulski
 tags: ["Refactoring", "React", "Diligent Maintenance"]
 ---
 

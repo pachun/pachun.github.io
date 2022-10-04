@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Validate Assumptions Early and Often With TDD
+author: Nick Pachulski
 tags: ["Test Driven Development", "Testing", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

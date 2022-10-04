@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spotify.framework with Swift
+author: Nick Pachulski
 tags: ["Spotify", "Swift", "iOS"]
 ---
 

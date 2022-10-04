@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fly By Wire
+author: Nick Pachulski
 tags: ["Podcast Episode", "Career Development"]
 ---
 

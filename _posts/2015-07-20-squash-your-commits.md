@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Squash Your Commits"
+author: Nick Pachulski
 tags: ["Git", "Diligent Maintenance"]
 ---
 

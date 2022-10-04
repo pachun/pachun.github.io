@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Do Not Repeat Yourself - But Maybe Repeat Yourself
+author: Nick Pachulski
 tags: ["Refactoring", "DRY", "Diligent Maintenance"]
 excerpt_separator: <!--end-of-excerpt-->
 ---

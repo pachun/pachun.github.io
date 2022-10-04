@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automated Testing
+author: Nick Pachulski
 tags: ["Testing", "Diligent Maintenance"]
 ---
 

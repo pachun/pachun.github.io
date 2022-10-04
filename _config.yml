@@ -4,3 +4,5 @@ title: "Nick Pachulski" # the name of your site, e.g. ACME Corp.
 permalink: /:title
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-redirect-from

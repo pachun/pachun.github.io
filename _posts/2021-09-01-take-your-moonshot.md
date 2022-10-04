@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Take Your Moonshot
+author: Nick Pachulski
 tags: ["Inspiration"]
 ---
 
