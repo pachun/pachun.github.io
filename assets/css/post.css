@@ -326,7 +326,7 @@
     color: #bbbbbb;
   }
   .highlight {
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 }
 
