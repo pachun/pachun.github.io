@@ -551,6 +551,6 @@
   }
   .highlight {
     color: #f8f8f2;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 }
