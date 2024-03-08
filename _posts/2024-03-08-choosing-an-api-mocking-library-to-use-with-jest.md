@@ -84,9 +84,6 @@ describe("viewing a player", () => {
           ),
           MSW.http.get(
             `${Config.apiUrl}/players/1/send_text_message_confirmation_code`,
-            () => {
-              return MSW.HttpResponse.json(player)
-            },
             { once: true },
           ),
         )
