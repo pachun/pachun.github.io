@@ -10,7 +10,7 @@ Today I needed to test drive a feature which allows users to confirm their accou
 
 <!--end-of-excerpt-->
 
-I was able to test that the dialog was display by mocking out the call to show the alert with jest.
+I was able to test that the prompt was displayed by mocking out the call to show the prompt with jest.
 
 ```react
 it("shows an alert with an input to enter the text message's confirmation code", async () => {
