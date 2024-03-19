@@ -8,6 +8,8 @@ excerpt_separator: <!--end-of-excerpt-->
 
 There's a common complaint - not a problem, per se - that people run into when building applications which use React Contexts to share state.
 
+<!--end-of-excerpt-->
+
 <blockquote class="twitter-tweet" data-conversation="none" data-theme="dark"><p lang="en" dir="ltr">every React doom tree must have obligatory hadouken <a href="https://t.co/VHej94qn2w">pic.twitter.com/VHej94qn2w</a></p>&mdash; swyx (@swyx) <a href="https://twitter.com/swyx/status/1644124125148110849?ref_src=twsrc%5Etfw">April 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Most people who use contexts in React create a bunch of them for performance reasons. It's a good idea to make your contexts specific because all the consumers of a given context will rerender (causing their children to rerender) whenever that context's value changes.
