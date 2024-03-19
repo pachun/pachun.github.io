@@ -21,7 +21,7 @@ import React from "react";
 import { Text, View } from "react-native";
 
 const NameContext = React.createContext("");
-const AgeContext = React.createContext(undefined);
+const AgeContext = React.createContext(0);
 const HeightInInchesContext = React.createContext(0);
 
 const App = () => {
