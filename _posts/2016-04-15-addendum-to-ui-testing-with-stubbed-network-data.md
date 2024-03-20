@@ -5,6 +5,7 @@ author: Nick Pachulski
 tags: ["Test Driven Development", "Testing", "iOS", "Swift"]
 excerpt_separator: <!--end-of-excerpt-->
 redirect_from: /2016/addendum-to-ui-testing-with-stubbed-network-data/
+redirect_from: /2016/addendum-to-ui-testing-with-stub-network-data/
 ---
 
 This post will only be helpful to you if you intend to use [Joe Masilotti's
