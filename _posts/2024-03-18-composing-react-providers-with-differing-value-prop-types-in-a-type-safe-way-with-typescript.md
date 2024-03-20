@@ -41,7 +41,7 @@ const PersonalDetails = () => {
   const age = React.useContext(AgeContext);
   const heightInInches = React.useContext(HeightInInchesContext);
   return (
-    <View style={ { flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={{ '{{' }} flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Name: {name}</Text>
       <Text>Age: {age}</Text>
       <Text>
@@ -157,7 +157,7 @@ const PersonalDetails = (): React.ReactElement => {
   const age = React.useContext(AgeContext)
   const heightInInches = React.useContext(HeightInInchesContext)
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={{ '{{' }} flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Name: {name}</Text>
       <Text>Age: {age}</Text>
       <Text>
