@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Composing React Providers with Differing Value Prop Types in a Type-Safe way with Typescript"
+title: "Composing React Providers with Differing Value Prop Types in a Type-Safe Way with Typescript"
 author: Nick Pachulski
 tags: ["React", "Functional Programming"]
 excerpt_separator: <!--end-of-excerpt-->
