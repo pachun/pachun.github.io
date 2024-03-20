@@ -94,10 +94,10 @@
   font-size: 12pt;
 }
 
-.highlight {
+div.highlight {
   font-size: 12pt;
-  line-height: 22pt;
   overflow: scroll;
+  padding-left: 10px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -121,6 +121,10 @@
 /* https://mazhuang.org/rouge-themes/ */
 
 @media (prefers-color-scheme: light) {
+  div.highlight {
+    background-color: #f8f8f8;
+  }
+
   /* github color scheme */
   .highlight table td {
     padding: 5px;
@@ -348,6 +352,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  div.highlight {
+    background-color: #1b1d1e;
+  }
+
   /* molokai color scheme */
   .highlight table td {
     padding: 5px;
